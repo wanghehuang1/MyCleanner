@@ -44,6 +44,14 @@ public class CleanManager {
 
     }
 
+    public ArrayList<CleanItem>[] getSimpleCleanLists() {
+        return mSimpleCleanLists;
+    }
+
+    public ArrayList<CleanItem>[] getDeepCleanLists() {
+        return mDeepCleanLists;
+    }
+
     //界面更新回调
     public void setCallBack(ICallBack mCallBack) {
         this.mCallBack = mCallBack;
